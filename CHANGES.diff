@@ -1,0 +1,38 @@
+# Delta exato aplicado ao repo do bmtec (commit 0e80820d6664ca744e45f8896650faf44caccb3c)
+# pelo run.sh. Documenta as ÚNICAS mudanças. NADA na busca, na is_risky_pattern,
+# no vetorizador, no parser ou no builder. Você pode conferir o mesmo delta rodando
+# `git -C bmtec-src diff` depois do run.sh (ele já imprime isso na tela).
+#
+# Resumo:
+#   1. + src/bin/exp_eval.rs   (avaliador offline novo — só chama a lib pública deles)
+#   2. ~ Cargo.toml            (registra o binário exp_eval)
+#   3. ~ src/index.rs          (MAX_NPROBE 64 -> 2048, SÓ para permitir KNN exato como gabarito)
+
+--- a/Cargo.toml
++++ b/Cargo.toml
+@@ -21,6 +21,10 @@
+ name = "builder"
+ path = "src/bin/builder.rs"
+
++[[bin]]
++name = "exp_eval"
++path = "src/bin/exp_eval.rs"
++
+ [dependencies]
+ # Low-level Linux syscalls: epoll, SCM_RIGHTS fd-passing, sockets, mlock.
+ libc = "0.2"
+
+--- a/src/index.rs
++++ b/src/index.rs
+@@ -29,7 +29,7 @@
+ /// Largest nprobe we will honour (bounds a stack buffer). The adaptive path
+ /// expands to at most 48 cells, so 64 leaves room for manual tuning without
+ /// paying for a cold 256-entry stack buffer on every request.
+-const MAX_NPROBE: usize = 64;
++const MAX_NPROBE: usize = 2048; // EXPERIMENT: exact (all-cells) KNN as ground truth
+ /// Largest centroid count we will honour. The baked index is built with 2048
+ /// centroids.
+ const MAX_CENTROIDS: usize = 2048;
+
+# 3. + src/bin/exp_eval.rs  — arquivo novo. Veja exp_eval.rs (cópia idêntica) neste repo.
+#    O run.sh copia exp_eval.rs (deste repo) para bmtec-src/src/bin/ antes do build.

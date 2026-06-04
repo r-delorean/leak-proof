@@ -1,0 +1,15 @@
+# O clone do repo do bmtec é gerado pelo run.sh, não vai pro repo.
+/bmtec-src/
+
+# Índice e quaisquer artefatos binários (construídos na hora).
+*.bin
+
+# Dado oficial da Rinha (baixe do repo do zanfranceschi; não é nosso pra hospedar).
+/test-data.json
+
+# Build do Rust.
+/target/
+
+# Lixo de SO.
+.DS_Store
+*.swp

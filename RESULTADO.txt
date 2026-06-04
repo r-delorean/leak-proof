@@ -1,0 +1,16 @@
+== test-data.json (vs expected_approved) ==
+config                                FP    FN   fails
+A  nprobe=10  Pattern (PRODUCTION)   0     0     0
+B  nprobe=10  no-escalation          3     4     7
+C  nprobe=48  no-escalation          0     0     0
+D  nprobe=64  no-escalation          0     0     0
+
+EXACT (all 2048 cells) vs expected_approved mismatches: 0  (confirms spec == exact KNN)
+
+== held-out (perturbed, unseen) vs EXACT ground truth ==
+queries                 : 54100
+B pure-10 failures      : 14
+A table   failures      : 13
+table fires (A != B)    : 1
+rescued (B wrong->A ok) : 1
+broke   (B ok->A wrong) : 0

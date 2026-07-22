@@ -19,6 +19,15 @@ ajuste ao conjunto de teste.
 
 ## Nada aqui é embutido
 
+kdkdkj
+
+kdjkj
+ljs
+kj
+
+kjd
+
+
 Este repositório **não contém** o índice, nem o código do bmtec, nem o test-data. O
 `run.sh` gera tudo na hora, na sua frente, a partir das fontes públicas:
 

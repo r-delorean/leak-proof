@@ -32,7 +32,12 @@ Este repositório **não contém** o índice, nem o código do bmtec, nem o test
 4. roda o avaliador e grava `RESULTADO.txt`.
 
 ## Como reproduzir
-
+este
+e
+um
+te
+ste
+que lega
 ```bash
 # test-data.json é o oficial da Rinha (não é do bmtec, não vem neste repo):
 #   github.com/zanfranceschi/rinha-de-backend-2026 -> test/test-data.json

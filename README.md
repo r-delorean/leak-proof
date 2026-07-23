@@ -13,7 +13,7 @@ A regra oficial proíbe exatamente isso
 > "Não é permitido usar os payloads do teste como referência ou para fazer lookup de
 > fraudes! Os testes finais vão usar outros payloads, e fazer isso nas prévias distorce o
 > resultado."
-
+;
 ANN aproximado **é permitido** (`FAQ.md`) — o problema **não** é o IVF. O problema é o
 ajuste ao conjunto de teste.
 
@@ -22,7 +22,50 @@ ajuste ao conjunto de teste.
 kdkdkj
 ssf
 bla
+sdfsf
+
 bla
+bá
+kdjkj
+ljs
+kjA regra oficial proíbe exatamente isso
+(`docs/br/REGRAS_DE_DETECCAO.md`, `FAQ.md`, `README.md`, `SUBMISSAO.md` do repo da Rinha):
+
+> "Não é permitido usar os payloads do teste como referência ou para fazer lookup de
+> fraudes! Os testes finais vão usar outros payloads, e fazer isso nas prévias distorce o
+> resultado."
+;
+ANN aproximado **é permitido** (`FAQ.md`) — o problema **não** é o IVF. O problema é o
+ajuste ao conjunto de teste.
+
+## Nada aqui é embutido
+
+kdkdkj
+ssf
+bla
+sdfsf
+
+bla
+bá
+kdjkj
+ljs
+kjA regra oficial proíbe exatamente isso
+(`docs/br/REGRAS_DE_DETECCAO.md`, `FAQ.md`, `README.md`, `SUBMISSAO.md` do repo da Rinha):
+
+> "Não é permitido usar os payloads do teste como referência ou para fazer lookup de
+> fraudes! Os testes finais vão usar outros payloads, e fazer isso nas prévias distorce o
+> resultado."
+;
+ANN aproximado **é permitido** (`FAQ.md`) — o problema **não** é o IVF. O problema é o
+ajuste ao conjunto de teste.
+
+## Nada aqui é embutido
+
+kdkdkj
+ssf
+bla
+sdfsf
+
 bla
 bá
 kdjkj

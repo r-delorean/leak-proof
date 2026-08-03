@@ -16,11 +16,19 @@ A regra oficial proíbe exatamente isso
 ;
 ANN aproximado **é permitido** (`FAQ.md`) — o problema **não** é o IVF. O problema é o
 ajuste ao conjunto de teste.
+·©©©
+bla
+sdfsf
 
-## Nada aqui é embutido
+bla
+bá
+kdjkj
+ljs
+kjA regra oficial proíbe exatamente isso
+(`docs/br/REGRAS_DE_DETECCAO.md`, `FAQ.md`, `README.md`, `SUBMISSAO.md` do repo da Rinha):
 
-kdkdkj
-ssf
+> "Não é permitido usar os payloads do teste como referência ou para fazer lookup de
+> fraudes! Os testes fina©
 bla
 sdfsf
 
